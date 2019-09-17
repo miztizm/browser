@@ -1,0 +1,137 @@
+body {
+background: #ffffff!important; }
+
+div#ads_left {
+    position: absolute !important;
+    left: -9500px !important;
+}
+.side_bar {
+    padding-left: 0px!important; 
+    margin-left: 0px!important; 
+    padding-right: 0px!important; 
+    margin-right: 0px!important; 
+    position: fixed!important; 
+    right: 15px!important; 
+	  top: 0!important;
+}
+.narrow_column.fixed {
+    top: 0px!important;
+}
+.im-mess.im-mess_srv .im-mess--text {
+    text-align: center!important;
+}
+.im-mess {
+    padding: 6px 30px 7px 0 !important;
+}
+.im-mess .im-mess--text {
+    text-align: justify !important;
+}
+
+.im-mess--text .page_media_link_img_wrap {
+    max-height: 315px !important;
+}
+.page_media_link_img {
+    height: 100% !important;
+}
+#page_header_cont {
+    display: none !important;
+}
+.im-page {
+    height: 887px!important;
+}
+  .page_block { 
+    border-radius: 0px;
+}
+.im-page .im-page--history {
+    border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.im-page .im-page--chat-body-abs {
+    width: 100% !important;
+}
+#page_layout, #page_header {
+     margin-top: -57px !important;
+    padding: 0 !important;
+	margin-left: -164px !important;
+}
+.online {
+    right: 7px;
+}
+
+.im-mess {
+    padding: 6px 30px 7px 0 !important;
+}
+.im-mess .im-mess--text {
+    text-align: justify !important;
+}
+.im-mess--text .page_media_link_img_wrap {
+    max-height: 315px !important;
+}
+.page_media_link_img {
+    height: 100% !important;
+}
+.im-page .im-page--chat-body-abs {
+    width: 100% !important;
+}
+.nim-dialog .nim-dialog--preview, .nim-dialog .nim-dialog--text-preview {
+ display:none!important;
+}
+.nim-dialog .nim-dialog--photo {
+    padding: 4px 0px 4px 0!important;
+}
+.nim-peer {
+       width: 31px!important;
+    height: 19px!important;
+}
+.nim-dialog .nim-dialog--content {
+    padding-right: 15px!important;
+    margin-left: 31px!important;
+}
+.nim-dialog .nim-dialog--cw {
+    padding: 0px 0!important;
+ 
+}
+.nim-dialog .nim-dialog--name {
+    margin-bottom: 0px!important;
+    margin-top: 8px!important;
+    font-weight: normal!important;
+}
+.nim-dialog--text-preview {
+    display:none!important;
+    visibility:hidden!important;
+ 
+}
+.nim-dialog .nim-dialog--close {
+    margin-top: 1px!important;
+}
+.nim-dialog.nim-dialog_unread-out.nim-dialog_muted:not(.nim-dialog_failed) .nim-dialog--unread, .nim-dialog.nim-dialog_unread-out:not(.nim-dialog_failed) .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_unread-out:not(.nim-dialog_failed) .nim-dialog--unread {
+    margin-top: -15px!important;
+    margin-right: 52px!important;
+}
+.nim-dialog.nim-dialog_failed .nim-dialog--unread, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread {
+    margin-top: -19px;
+    margin-right: 47px;
+}
+.nim-dialog .nim-dialog--unread {
+    font-size: 10px;
+    height: 15px;
+    line-height: 15px;
+}
+.im-replied {
+    white-space: normal;
+}
+.nim-dialog .nim-dialog--date {
+    top: 0px!important;
+}
+.nim-peer .nim-peer--photo .im_grid>img, .nim-peer .nim-peer--photo>img {
+    width: 25px!important;
+    height: 25px!important;
+}
+.nim-dialog {
+    height: 30px !important;
+}
+.nim-peer .nim-peer--photo-w {
+    border-radius: 0px !important;
+}
