@@ -1,1 +1,1 @@
-![alt text](https://raw.githubusercontent.com/miztizm/browser/franz/vk/darkmode.png)
+![alt text](https://github.com/miztizm/browser/raw/master/franz/vk/darkmode.png)
