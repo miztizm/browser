@@ -1,3 +1,3 @@
 Cleaned Compacted
 
-![alt text](https://github.com/miztizm/browser/raw/master/userstyles/vk/messenger_cc/preview.png)
+![alt text](https://github.com/miztizm/browser/raw/master/userstyles/vk/Vkontakte IM CC/preview.png)
