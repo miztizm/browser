@@ -56,6 +56,40 @@ div#ads_left {
     padding: 0 !important;
 	margin-left: -164px !important;
 }
+.side_bar_inner {
+    margin-top: 0px!important;
+}
+.fc_tab_wrap {
+    box-shadow: none;
+    border-radius: 0px;
+}
+#fc_contacts, .fc_content {
+    height: 810px!important;
+}
+.scrollbar_cont {
+    height: 50%!important;
+}
+.fc_contact {
+    padding: 0px;
+}
+span.fc_contact_photo {
+    height: 24px;
+    width: 24px;
+    margin-left: 17px;
+}
+.fc_tab_wrap {
+  width: 200px!important;
+}
+.fc_tab_title {
+    max-width: 120px!important;
+}
+img.fc_contact_photo {
+    width: 24px;
+    height: 24px;
+}
+.fc_contact_name {
+    line-height: 24px;
+}
 .online {
     right: 7px;
 }
