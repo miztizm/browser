@@ -59,6 +59,11 @@ div#ads_left {
 .side_bar_inner {
     margin-top: 0px!important;
 }
+.fc_tab_head {
+    background-color: #fbfbfb;
+    border: 1px solid #e3e4e8;
+    border-radius: unset;
+}
 .fc_tab_wrap {
     box-shadow: none;
     border-radius: 0px;
@@ -72,6 +77,49 @@ div#ads_left {
 .fc_contact {
     padding: 0px;
 }
+.fc_srv_msg a {
+   font-size:11px;
+}
+.fc_msgs_out .fc_msgs {
+    background-color: #fff;
+    border: 0px;
+}
+.fc_tab {
+    background-color: #ffffff;
+}
+.fc_tab_head {
+    background-color: #fbfbfb;
+    border: 1px solid #e3e4e8;
+    border-radius: unset;
+}
+.fc_tab_log_msgs .audio-msg-track--wave { display:none; }
+.fc_tab_log_msgs .audio-msg-track .audio-msg-track--btn {
+    margin-top: 4px;
+    width: 16px;
+    height: 16px;
+}
+.fc_tab_log_msgs .im_msg_audiomsg .audio-msg-track:not(.audio-msg-player) {
+    padding: 0px 10px;
+}
+.fc_tab_title {
+    font-weight: 400;
+    color: #46678d;
+       max-width: 120px!important;
+}
+.fc_clist_empty, .fc_log_empty {
+    font-size: 12px;
+}
+.fc_contact_name {
+    padding-left: 2px;
+    font-weight: 400;
+}
+.im_msg_audiomsg {
+    padding: 0px;
+}
+.fc_msgs {
+    max-width: 148px;
+        font-size: 12px;
+}
 span.fc_contact_photo {
     height: 24px;
     width: 24px;
@@ -79,6 +127,11 @@ span.fc_contact_photo {
 }
 .fc_tab_wrap {
   width: 200px!important;
+}
+.fc_tab_title {
+    font-weight: 400;
+    color: #46678d;
+	   max-width: 120px!important;
 }
 .fc_tab_title {
     max-width: 120px!important;
