@@ -2,7 +2,7 @@ Cleaned Compacted
 
 ![alt text](https://github.com/miztizm/browser/raw/master/userstyles/vk/vk_messenger_cc/preview.png)
 
-```
+```css
 @-moz-document url-prefix("https://vk.com/im"), url-prefix("http://vk.com/im") {
 /*// MIZTIZM //*/
 /*
