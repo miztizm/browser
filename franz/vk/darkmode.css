@@ -1,6 +1,11 @@
 body {
 background: #ffffff!important; }
 
+@media all and (max-width: 1080px) {
+#side_bar {display:none !important;}
+body {overflow:hidden}
+#chat_onl_wrap {display:none !important;}
+}
 div#ads_left {
     position: absolute !important;
     left: -9500px !important;
@@ -63,13 +68,15 @@ div#ads_left {
     background-color: #fbfbfb;
     border: 1px solid #e3e4e8;
     border-radius: unset;
+	margin-bottom: -1px;
 }
 .fc_tab_wrap {
     box-shadow: none;
     border-radius: 0px;
+	 width: 200px!important;
 }
 #fc_contacts, .fc_content {
-    height: 810px!important;
+    height: 819px!important;
 }
 .scrollbar_cont {
     height: 50%!important;
@@ -86,6 +93,7 @@ div#ads_left {
 }
 .fc_tab {
     background-color: #ffffff;
+  border: 1px solid #e3e4e8;
 }
 .fc_tab_head {
     background-color: #fbfbfb;
@@ -109,6 +117,9 @@ div#ads_left {
 .fc_clist_empty, .fc_log_empty {
     font-size: 12px;
 }
+  #fc_ctabs_cont {
+    border: 1px solid #e3e4e8;
+}
 .fc_contact_name {
     padding-left: 2px;
     font-weight: 400;
@@ -125,9 +136,6 @@ span.fc_contact_photo {
     width: 24px;
     margin-left: 17px;
 }
-.fc_tab_wrap {
-  width: 200px!important;
-}
 .fc_tab_title {
     font-weight: 400;
     color: #46678d;
@@ -137,8 +145,8 @@ span.fc_contact_photo {
     max-width: 120px!important;
 }
 img.fc_contact_photo {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 .fc_contact_name {
     line-height: 24px;
@@ -221,4 +229,11 @@ img.fc_contact_photo {
 }
 .nim-peer .nim-peer--photo-w {
     border-radius: 0px !important;
+}
+.page_block {
+    box-shadow: 0 0px 0 0 #d7d8db, 0 0 0 0px #e3e4e8;
+	border-right: 1px solid #e3e4e8;
+}
+.im-page {
+    padding-bottom: 0px;
 }
