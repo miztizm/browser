@@ -6,6 +6,11 @@ background: #ffffff!important; }
 body {overflow:hidden}
 #chat_onl_wrap {display:none !important;}
 }
+.right_list .unshown {display:block!important;}
+._im_dialog_photo :nth-child(2) {display:none !important;}
+._im_dialog_photo :nth-child(3) {display:none !important;}
+._im_dialog_photo :nth-child(4) {display:none !important;}
+._im_dialog_photo :nth-child(5) {display:none !important;}
 div#ads_left {
     position: absolute !important;
     left: -9500px !important;
@@ -202,12 +207,20 @@ img.fc_contact_photo {
     margin-top: 1px!important;
 }
 .nim-dialog.nim-dialog_unread-out.nim-dialog_muted:not(.nim-dialog_failed) .nim-dialog--unread, .nim-dialog.nim-dialog_unread-out:not(.nim-dialog_failed) .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_unread-out:not(.nim-dialog_failed) .nim-dialog--unread {
-    margin-top: -15px!important;
+    margin-top: -3px!important;
     margin-right: 52px!important;
 }
 .nim-dialog.nim-dialog_failed .nim-dialog--unread, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread {
-    margin-top: -19px;
+    margin-top: -3px;
     margin-right: 47px;
+}
+.nim-dialog.nim-dialog_failed .nim-dialog--unread, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread {
+    border-radius: 8px;
+}
+.nim-dialog .nim-dialog--unread-badge {
+    width: 15px;
+    height: 15px;
+    margin-top: -3px;
 }
 .nim-dialog .nim-dialog--unread {
     font-size: 10px;
@@ -236,4 +249,7 @@ img.fc_contact_photo {
 }
 .im-page {
     padding-bottom: 0px;
+}
+.nim-dialog.nim-dialog_verified .nim-dialog--verfifed {
+    display: none!important;
 }
