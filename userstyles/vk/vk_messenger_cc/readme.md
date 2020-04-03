@@ -1,20 +1,30 @@
-Cleaned Compacted
+Cleaned Compacted 
+https://userstyles.org/styles/142628/vkontakte-im-cc
 
 ![alt text](https://github.com/miztizm/browser/raw/master/userstyles/vk/vk_messenger_cc/preview.png)
 
 ```css
 @-moz-document url-prefix("https://vk.com/im"), url-prefix("http://vk.com/im") {
-/*// MIZTIZM //*/
+/*// WAR.FISH //*/
 /*
-Author  > miztizm
+Author  > mize
 Created > April 29, 2017
-Website > https://vk.com/miztizm
+Website > https://vk.com/id331873523
 */
+@media all and (max-width: 1280px) {
+#page_layout, #page_header {margin-left: -167px !important;}
+#side_bar {display:none !important;}
+body {overflow:hidden}
+#chat_onl_wrap {display:none !important;}
+}
 
 #page_layout, #page_header {
      margin-top: -57px !important;
     padding: 0 !important;
-margin-left: -167px !important;
+margin-left: auto;
+}
+  #fc_ctabs_cont {
+    border: 1px solid #e3e4e8;
 }
 .fc_srv_msg a {
    font-size:11px;
@@ -25,6 +35,7 @@ margin-left: -167px !important;
 }
 .fc_tab {
     background-color: #ffffff;
+  border: 1px solid #e3e4e8;
 }
 .fc_tab_head {
     background-color: #fbfbfb;
@@ -70,7 +81,7 @@ margin-left: -167px !important;
     border-radius: 0px;
 }
 #fc_contacts, .fc_content {
-    height: 930px!important;
+    height: 830px!important;
 }
 .scrollbar_cont {
     height: 50%!important;
@@ -84,8 +95,8 @@ span.fc_contact_photo {
     margin-left: 17px;
 }
 img.fc_contact_photo {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 .fc_contact_name {
     line-height: 24px;
@@ -186,12 +197,18 @@ div#ads_left {
     margin-top: 1px!important;
 }
 .nim-dialog.nim-dialog_unread-out.nim-dialog_muted:not(.nim-dialog_failed) .nim-dialog--unread, .nim-dialog.nim-dialog_unread-out:not(.nim-dialog_failed) .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_unread-out:not(.nim-dialog_failed) .nim-dialog--unread {
-    margin-top: -15px!important;
+    margin-top: -3px!important;
     margin-right: 52px!important;
 }
 .nim-dialog.nim-dialog_failed .nim-dialog--unread, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread {
-    margin-top: -19px;
+    margin-top: -3px;
     margin-right: 47px;
+    border-radius: 8px;
+}
+.nim-dialog .nim-dialog--unread-badge {
+    width: 15px;
+    height: 15px;
+    margin-top: -3px;
 }
 .nim-dialog .nim-dialog--unread {
     font-size: 10px;
@@ -214,5 +231,17 @@ div#ads_left {
 .nim-peer .nim-peer--photo-w {
     border-radius: 0px !important;
 }
+.im-page {
+    padding-bottom: 0px;
 }
+.nim-dialog.nim-dialog_verified .nim-dialog--verfifed {
+    display: none;
+}
+._im_dialog_photo :nth-child(2) {display:none !important;}
+._im_dialog_photo :nth-child(3) {display:none !important;}
+._im_dialog_photo :nth-child(4) {display:none !important;}
+._im_dialog_photo :nth-child(5) {display:none !important;}
+}
+
+
 ```
