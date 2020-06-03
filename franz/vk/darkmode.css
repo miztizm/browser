@@ -234,8 +234,8 @@ img.fc_contact_photo {
     top: 0px!important;
 }
 .nim-peer .nim-peer--photo .im_grid>img, .nim-peer .nim-peer--photo>img {
-    width: 25px!important;
-    height: 25px!important;
+    width: 23px!important;
+    height: 23px!important;
 }
 .nim-dialog {
     height: 30px !important;
